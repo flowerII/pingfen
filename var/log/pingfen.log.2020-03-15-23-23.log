@@ -1,0 +1,480 @@
+2020-03-15 23:23:05.366 [main] INFO  cn.qianshu.pingfen.PingfenApplication - Starting PingfenApplication on yu-PC with PID 288 (C:\Users\Administrator\Desktop\pingfen\target\classes started by Administrator in C:\Users\Administrator\Desktop\pingfen)
+2020-03-15 23:23:05.370 [main] INFO  cn.qianshu.pingfen.PingfenApplication - No active profile set, falling back to default profiles: default
+2020-03-15 23:23:06.685 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-15 23:23:06.695 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-15 23:23:06.696 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-15 23:23:06.697 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-15 23:23:06.778 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-15 23:23:06.779 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1366 ms
+2020-03-15 23:23:07.057 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-15 23:23:07.063 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-15 23:23:07.270 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2020-03-15 23:23:07.300 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38b5f25, org.springframework.security.web.context.SecurityContextPersistenceFilter@732c9b5c, org.springframework.security.web.header.HeaderWriterFilter@3ae0b770, org.springframework.security.web.authentication.logout.LogoutFilter@440eaa07, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ea899a9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d6a6bee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f096f37, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@327ed9f5, org.springframework.security.web.session.SessionManagementFilter@30e6a763, org.springframework.security.web.access.ExceptionTranslationFilter@fca387, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73545b80]
+2020-03-15 23:23:07.417 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-15 23:23:07.613 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-15 23:23:07.768 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-15 23:23:07.795 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-15 23:23:07.799 [main] INFO  cn.qianshu.pingfen.PingfenApplication - Started PingfenApplication in 3.041 seconds (JVM running for 3.636)
+2020-03-15 23:23:32.900 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-15 23:23:32.914 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-15 23:23:32.925 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-03-15 23:23:32.986 [http-nio-8080-exec-2] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/login]
+2020-03-15 23:23:32.989 [http-nio-8080-exec-2] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/login]
+2020-03-15 23:23:34.426 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-15 23:23:34.429 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/login.css]
+2020-03-15 23:23:34.434 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-15 23:23:34.438 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-15 23:23:34.441 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/login.js]
+2020-03-15 23:23:34.443 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-15 23:23:34.465 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-15 23:23:34.612 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-15 23:23:34.627 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.652 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/index.css(String)
+2020-03-15 23:23:34.659 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.660 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/index.js(String)
+2020-03-15 23:23:34.680 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.681 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/login.js(String)
+2020-03-15 23:23:34.689 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.689 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.690 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.691 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/vue.js(String)
+2020-03-15 23:23:34.696 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.698 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.699 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/login.css(String)
+2020-03-15 23:23:34.700 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.704 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.704 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.706 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.706 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.706 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/login.js(String)
+2020-03-15 23:23:34.707 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/vue.js(String)
+2020-03-15 23:23:34.709 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.709 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.710 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.710 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.712 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.712 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.713 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/login.css(String)
+2020-03-15 23:23:34.714 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.714 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.714 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.715 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.714 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.716 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/index.css(String)
+2020-03-15 23:23:34.716 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/index.js(String)
+2020-03-15 23:23:34.717 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-15 23:23:34.716 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/login.js]
+2020-03-15 23:23:34.719 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.719 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.720 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/vue.js(String)
+2020-03-15 23:23:34.720 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.713 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.722 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.723 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/axios.min.js(String)
+2020-03-15 23:23:34.724 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/login.js(String)
+2020-03-15 23:23:34.724 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.725 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.722 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.721 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/login.css]
+2020-03-15 23:23:34.726 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.726 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.727 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/vue.js(String)
+2020-03-15 23:23:34.727 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.727 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-15 23:23:34.718 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.727 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/login.css(String)
+2020-03-15 23:23:34.728 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.729 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-15 23:23:34.730 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.730 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.732 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/index.js(String)
+2020-03-15 23:23:34.733 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.733 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.733 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.734 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.734 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.734 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.735 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.735 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/login.css(String)
+2020-03-15 23:23:34.736 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/login.js(String)
+2020-03-15 23:23:34.737 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.737 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/index.css(String)
+2020-03-15 23:23:34.738 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.741 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.744 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.744 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.745 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.744 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.746 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.748 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.749 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/index.js(String)
+2020-03-15 23:23:34.752 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.753 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.754 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.755 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/index.css(String)
+2020-03-15 23:23:34.757 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.758 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.760 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.760 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.757 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.761 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.762 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/axios.min.js(String)
+2020-03-15 23:23:34.767 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.768 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:23:34.779 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-15 23:23:34.780 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:23:34.781 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/axios.min.js(String)
+2020-03-15 23:23:34.785 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.786 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:23:34.788 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:23:34.789 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/axios.min.js(String)
+2020-03-15 23:23:34.792 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:23:34.793 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:14.371 [http-nio-8080-exec-5] INFO  cn.qianshu.pingfen.config.VAuthenticationProvider - VAuthenticationProvider authenticate login user [username=10021, password=123456]
+2020-03-15 23:24:14.373 [http-nio-8080-exec-5] DEBUG cn.qianshu.pingfen.dao.SUserDao.findSUserByName - ==>  Preparing: SELECT su.* FROM s_user su WHERE su.account = ? 
+2020-03-15 23:24:14.374 [http-nio-8080-exec-5] DEBUG cn.qianshu.pingfen.dao.SUserDao.findSUserByName - ==> Parameters: 10021(String)
+2020-03-15 23:24:14.380 [http-nio-8080-exec-5] DEBUG cn.qianshu.pingfen.dao.SUserDao.findSUserByName - <==      Total: 1
+2020-03-15 23:24:14.381 [http-nio-8080-exec-5] DEBUG c.q.pingfen.dao.SRoleDao.findSRoleListBySUserId - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_user_role sur ON sr.id = sur.fk_role_id LEFT JOIN s_user su ON sur.fk_user_id = su.id WHERE su.id = ? 
+2020-03-15 23:24:14.382 [http-nio-8080-exec-5] DEBUG c.q.pingfen.dao.SRoleDao.findSRoleListBySUserId - ==> Parameters: 1(Integer)
+2020-03-15 23:24:14.386 [http-nio-8080-exec-5] DEBUG c.q.pingfen.dao.SRoleDao.findSRoleListBySUserId - <==      Total: 1
+2020-03-15 23:24:14.387 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySUserId - ==>  Preparing: SELECT * FROM s_permission sp LEFT JOIN s_role_permission srp ON sp.id = srp.fk_permission_id LEFT JOIN s_role sr ON srp.fk_role_id = sr.id LEFT JOIN s_user_role sur ON sr.id = sur.fk_role_id LEFT JOIN s_user su ON sur.fk_user_id = su.id WHERE su.id = ? 
+2020-03-15 23:24:14.388 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySUserId - ==> Parameters: 1(Integer)
+2020-03-15 23:24:14.395 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySUserId - <==      Total: 3
+2020-03-15 23:24:14.411 [http-nio-8080-exec-5] INFO  cn.qianshu.pingfen.config.VAuthenticationProvider - VAuthenticationProvider authenticate vUserDetails [vUserDetails={"gson":{"calls":{"threadLocalHashCode":1323096108},"typeTokenCache":{},"constructorConstructor":{"instanceCreators":{},"accessor":{}},"jsonAdapterFactory":{"constructorConstructor":{"instanceCreators":{},"accessor":{}}},"factories":[null,null,{"version":-1.0,"modifiers":136,"serializeInnerClasses":true,"requireExpose":false,"serializationStrategies":[],"deserializationStrategies":[]},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"constructorConstructor":{"instanceCreators":{},"accessor":{}}},{"constructorConstructor":{"instanceCreators":{},"accessor":{}},"complexMapKeySerialization":false},{"constructorConstructor":{"instanceCreators":{},"accessor":{}}},null,{"constructorConstructor":{"instanceCreators":{},"accessor":{}},"fieldNamingPolicy":"IDENTITY","excluder":{"version":-1.0,"modifiers":136,"serializeInnerClasses":true,"requireExpose":false,"serializationStrategies":[],"deserializationStrategies":[]},"jsonAdapterFactory":{"constructorConstructor":{"instanceCreators":{},"accessor":{}}},"accessor":{}}],"excluder":{"version":-1.0,"modifiers":136,"serializeInnerClasses":true,"requireExpose":false,"serializationStrategies":[],"deserializationStrategies":[]},"fieldNamingStrategy":"IDENTITY","instanceCreators":{},"serializeNulls":false,"complexMapKeySerialization":false,"generateNonExecutableJson":false,"htmlSafe":true,"prettyPrinting":false,"lenient":false,"serializeSpecialFloatingPointValues":false,"dateStyle":2,"timeStyle":2,"longSerializationPolicy":"DEFAULT","builderFactories":[],"builderHierarchyFactories":[]},"logger":{"name":"cn.qianshu.pingfen.entity.VUserDetails"},"sRoleList":[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"}],"sPermissionList":[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"},{"id":2,"permission":"P_ADMIN","url":"/admin","describe":"admin页面资源"},{"id":3,"permission":"P_HELLO","url":"/hello","describe":"hello页面资源"}],"id":1,"name":"admin","password":"$2a$10$D6WR4dcThfRCYGM7AXNHqup.V7URH6QISi4YFxYr1iAJeZf07ryQ2","account":"10021"}]
+2020-03-15 23:24:14.539 [http-nio-8080-exec-5] INFO  cn.qianshu.pingfen.config.VAuthenticationProvider - 密码匹配结果：true
+2020-03-15 23:24:14.662 [http-nio-8080-exec-5] INFO  cn.qianshu.pingfen.entity.VUserDetails - VUserDetails getAuthorities [authoritiesStr=R_ADMIN,P_INDEX,P_ADMIN,P_HELLO 
+2020-03-15 23:24:14.670 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/index]
+2020-03-15 23:24:14.671 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:14.672 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /index(String)
+2020-03-15 23:24:14.674 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 2
+2020-03-15 23:24:14.675 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"},{"id":2,"role":"R_HELLO","describe":"说hello相关的权限"}]]
+2020-03-15 23:24:14.676 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:14.677 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /index(String)
+2020-03-15 23:24:14.679 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 1
+2020-03-15 23:24:14.680 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"}]]
+2020-03-15 23:24:14.681 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_ADMIN","R_HELLO","P_INDEX"]]
+2020-03-15 23:24:14.681 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/index]
+2020-03-15 23:24:14.682 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:14.683 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /index(String)
+2020-03-15 23:24:14.685 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 2
+2020-03-15 23:24:14.686 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"},{"id":2,"role":"R_HELLO","describe":"说hello相关的权限"}]]
+2020-03-15 23:24:14.687 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:14.687 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /index(String)
+2020-03-15 23:24:14.689 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 1
+2020-03-15 23:24:14.690 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"}]]
+2020-03-15 23:24:14.690 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_ADMIN","R_HELLO","P_INDEX"]]
+2020-03-15 23:24:14.704 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.IndexController - vue controller admin page
+2020-03-15 23:24:14.993 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/]
+2020-03-15 23:24:14.994 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:14.995 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /(String)
+2020-03-15 23:24:14.998 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 1
+2020-03-15 23:24:14.999 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":3,"role":"R_USER","describe":"普通用户，评分"}]]
+2020-03-15 23:24:14.999 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.000 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /(String)
+2020-03-15 23:24:15.001 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 1
+2020-03-15 23:24:15.002 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":4,"permission":"P_INDEX","url":"/","describe":"/index"}]]
+2020-03-15 23:24:15.003 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_USER","P_INDEX"]]
+2020-03-15 23:24:15.003 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/]
+2020-03-15 23:24:15.003 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.004 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /(String)
+2020-03-15 23:24:15.007 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 1
+2020-03-15 23:24:15.008 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":3,"role":"R_USER","describe":"普通用户，评分"}]]
+2020-03-15 23:24:15.008 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.009 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /(String)
+2020-03-15 23:24:15.010 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 1
+2020-03-15 23:24:15.011 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":4,"permission":"P_INDEX","url":"/","describe":"/index"}]]
+2020-03-15 23:24:15.011 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_USER","P_INDEX"]]
+2020-03-15 23:24:15.021 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/index]
+2020-03-15 23:24:15.022 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.023 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /index(String)
+2020-03-15 23:24:15.025 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 2
+2020-03-15 23:24:15.026 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"},{"id":2,"role":"R_HELLO","describe":"说hello相关的权限"}]]
+2020-03-15 23:24:15.026 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.027 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /index(String)
+2020-03-15 23:24:15.029 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 1
+2020-03-15 23:24:15.030 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"}]]
+2020-03-15 23:24:15.030 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_ADMIN","R_HELLO","P_INDEX"]]
+2020-03-15 23:24:15.030 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/index]
+2020-03-15 23:24:15.031 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.031 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /index(String)
+2020-03-15 23:24:15.034 [http-nio-8080-exec-3] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 2
+2020-03-15 23:24:15.035 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"},{"id":2,"role":"R_HELLO","describe":"说hello相关的权限"}]]
+2020-03-15 23:24:15.035 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.036 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /index(String)
+2020-03-15 23:24:15.038 [http-nio-8080-exec-3] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 1
+2020-03-15 23:24:15.039 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"}]]
+2020-03-15 23:24:15.039 [http-nio-8080-exec-3] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_ADMIN","R_HELLO","P_INDEX"]]
+2020-03-15 23:24:15.040 [http-nio-8080-exec-3] INFO  cn.qianshu.pingfen.controller.IndexController - vue controller admin page
+2020-03-15 23:24:15.063 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-15 23:24:15.064 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.065 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/index.css(String)
+2020-03-15 23:24:15.068 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.069 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.069 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.070 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/index.css(String)
+2020-03-15 23:24:15.072 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.073 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.074 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-15 23:24:15.075 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.076 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/index.css(String)
+2020-03-15 23:24:15.079 [http-nio-8080-exec-8] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.079 [http-nio-8080-exec-10] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/custom.css]
+2020-03-15 23:24:15.079 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.080 [http-nio-8080-exec-10] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.080 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.080 [http-nio-8080-exec-10] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/custom.css(String)
+2020-03-15 23:24:15.080 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/index.css(String)
+2020-03-15 23:24:15.082 [http-nio-8080-exec-8] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.083 [http-nio-8080-exec-8] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.083 [http-nio-8080-exec-1] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-15 23:24:15.084 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-15 23:24:15.086 [http-nio-8080-exec-1] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.087 [http-nio-8080-exec-1] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/vue.js(String)
+2020-03-15 23:24:15.087 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.088 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/index.js(String)
+2020-03-15 23:24:15.089 [http-nio-8080-exec-2] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue-router.js]
+2020-03-15 23:24:15.090 [http-nio-8080-exec-1] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.090 [http-nio-8080-exec-2] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.092 [http-nio-8080-exec-1] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.092 [http-nio-8080-exec-2] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/vue-router.js(String)
+2020-03-15 23:24:15.093 [http-nio-8080-exec-1] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.093 [http-nio-8080-exec-1] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/vue.js(String)
+2020-03-15 23:24:15.095 [http-nio-8080-exec-9] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-15 23:24:15.096 [http-nio-8080-exec-2] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.097 [http-nio-8080-exec-9] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.097 [http-nio-8080-exec-2] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.098 [http-nio-8080-exec-9] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/axios.min.js(String)
+2020-03-15 23:24:15.098 [http-nio-8080-exec-2] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.098 [http-nio-8080-exec-2] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/vue-router.js(String)
+2020-03-15 23:24:15.100 [http-nio-8080-exec-1] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.101 [http-nio-8080-exec-1] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.101 [http-nio-8080-exec-1] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-15 23:24:15.102 [http-nio-8080-exec-2] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.102 [http-nio-8080-exec-1] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.103 [http-nio-8080-exec-2] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.103 [http-nio-8080-exec-1] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/vue.js(String)
+2020-03-15 23:24:15.103 [http-nio-8080-exec-2] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue-router.js]
+2020-03-15 23:24:15.104 [http-nio-8080-exec-9] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.104 [http-nio-8080-exec-2] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.105 [http-nio-8080-exec-9] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.105 [http-nio-8080-exec-2] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/vue-router.js(String)
+2020-03-15 23:24:15.105 [http-nio-8080-exec-9] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.106 [http-nio-8080-exec-10] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.106 [http-nio-8080-exec-9] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/axios.min.js(String)
+2020-03-15 23:24:15.107 [http-nio-8080-exec-10] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.107 [http-nio-8080-exec-10] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.108 [http-nio-8080-exec-10] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/custom.css(String)
+2020-03-15 23:24:15.111 [http-nio-8080-exec-9] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.112 [http-nio-8080-exec-9] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.114 [http-nio-8080-exec-9] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-15 23:24:15.115 [http-nio-8080-exec-9] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.115 [http-nio-8080-exec-2] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.115 [http-nio-8080-exec-10] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.115 [http-nio-8080-exec-9] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/axios.min.js(String)
+2020-03-15 23:24:15.116 [http-nio-8080-exec-10] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.116 [http-nio-8080-exec-2] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.116 [http-nio-8080-exec-10] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/custom.css]
+2020-03-15 23:24:15.117 [http-nio-8080-exec-2] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.117 [http-nio-8080-exec-10] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.117 [http-nio-8080-exec-1] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.117 [http-nio-8080-exec-10] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/custom.css(String)
+2020-03-15 23:24:15.118 [http-nio-8080-exec-1] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.118 [http-nio-8080-exec-2] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/vue-router.js(String)
+2020-03-15 23:24:15.119 [http-nio-8080-exec-1] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.119 [http-nio-8080-exec-1] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/vue.js(String)
+2020-03-15 23:24:15.120 [http-nio-8080-exec-9] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.121 [http-nio-8080-exec-9] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.122 [http-nio-8080-exec-9] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.123 [http-nio-8080-exec-9] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/axios.min.js(String)
+2020-03-15 23:24:15.123 [http-nio-8080-exec-10] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.123 [http-nio-8080-exec-2] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.124 [http-nio-8080-exec-10] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.124 [http-nio-8080-exec-1] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.124 [http-nio-8080-exec-2] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.124 [http-nio-8080-exec-10] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.125 [http-nio-8080-exec-1] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.125 [http-nio-8080-exec-10] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/custom.css(String)
+2020-03-15 23:24:15.126 [http-nio-8080-exec-10] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.127 [http-nio-8080-exec-10] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.129 [http-nio-8080-exec-9] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.129 [http-nio-8080-exec-9] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.155 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/router1.js]
+2020-03-15 23:24:15.155 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.156 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/router1.js(String)
+2020-03-15 23:24:15.171 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.172 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.172 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.173 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/router1.js(String)
+2020-03-15 23:24:15.175 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.176 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.177 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/router1.js]
+2020-03-15 23:24:15.177 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.178 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/router1.js(String)
+2020-03-15 23:24:15.182 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.183 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.184 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.186 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/router1.js(String)
+2020-03-15 23:24:15.188 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.189 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.204 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.206 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.207 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.207 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/index.js(String)
+2020-03-15 23:24:15.211 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.212 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.212 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-15 23:24:15.213 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.214 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/index.js(String)
+2020-03-15 23:24:15.218 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.220 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.220 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.221 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/index.js(String)
+2020-03-15 23:24:15.225 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.226 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.361 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/get_by_useruanme?username=admin]
+2020-03-15 23:24:15.362 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.363 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /activity/get_by_useruanme?username=admin(String)
+2020-03-15 23:24:15.382 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/fonts/element-icons.woff]
+2020-03-15 23:24:15.383 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.384 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/fonts/element-icons.woff(String)
+2020-03-15 23:24:15.386 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.387 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.387 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.388 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/fonts/element-icons.woff(String)
+2020-03-15 23:24:15.389 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.390 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.391 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/fonts/element-icons.woff]
+2020-03-15 23:24:15.391 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.392 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /vue/fonts/element-icons.woff(String)
+2020-03-15 23:24:15.392 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.393 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.394 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.394 [http-nio-8080-exec-6] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.394 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /activity/get_by_useruanme?username=admin(String)
+2020-03-15 23:24:15.395 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.395 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.396 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /vue/fonts/element-icons.woff(String)
+2020-03-15 23:24:15.397 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.397 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.397 [http-nio-8080-exec-6] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.398 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/get_by_useruanme?username=admin]
+2020-03-15 23:24:15.398 [http-nio-8080-exec-6] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:15.398 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:15.399 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /activity/get_by_useruanme?username=admin(String)
+2020-03-15 23:24:15.402 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.403 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:15.404 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:15.404 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /activity/get_by_useruanme?username=admin(String)
+2020-03-15 23:24:15.406 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:15.407 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:21.221 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/init]
+2020-03-15 23:24:21.222 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:21.223 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /activity/init(String)
+2020-03-15 23:24:21.226 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:21.227 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:21.227 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:21.228 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /activity/init(String)
+2020-03-15 23:24:21.229 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:21.230 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:21.230 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/init]
+2020-03-15 23:24:21.231 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:21.231 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /activity/init(String)
+2020-03-15 23:24:21.235 [http-nio-8080-exec-5] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:21.236 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:21.237 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:21.238 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /activity/init(String)
+2020-03-15 23:24:21.241 [http-nio-8080-exec-5] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:21.242 [http-nio-8080-exec-5] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:21.243 [http-nio-8080-exec-5] INFO  cn.qianshu.pingfen.controller.ActivityController - add activity get teams and users!!!
+2020-03-15 23:24:21.243 [http-nio-8080-exec-5] DEBUG cn.qianshu.pingfen.dao.STeamDao.findAll - ==>  Preparing: SELECT t.* FROM s_team t order by t.id 
+2020-03-15 23:24:21.244 [http-nio-8080-exec-5] DEBUG cn.qianshu.pingfen.dao.STeamDao.findAll - ==> Parameters: 
+2020-03-15 23:24:21.246 [http-nio-8080-exec-5] DEBUG cn.qianshu.pingfen.dao.STeamDao.findAll - <==      Total: 2
+2020-03-15 23:24:21.247 [http-nio-8080-exec-5] DEBUG cn.qianshu.pingfen.dao.SUserDao.findAll - ==>  Preparing: SELECT su.* FROM s_user su order by su.id 
+2020-03-15 23:24:21.248 [http-nio-8080-exec-5] DEBUG cn.qianshu.pingfen.dao.SUserDao.findAll - ==> Parameters: 
+2020-03-15 23:24:21.249 [http-nio-8080-exec-5] DEBUG cn.qianshu.pingfen.dao.SUserDao.findAll - <==      Total: 4
+2020-03-15 23:24:21.273 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/init]
+2020-03-15 23:24:21.274 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:21.274 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /activity/init(String)
+2020-03-15 23:24:21.277 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:21.277 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:21.278 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:21.279 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /activity/init(String)
+2020-03-15 23:24:21.347 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:21.348 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:21.348 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/init]
+2020-03-15 23:24:21.348 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:24:21.349 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /activity/init(String)
+2020-03-15 23:24:21.351 [http-nio-8080-exec-4] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:21.352 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:24:21.352 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:24:21.353 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /activity/init(String)
+2020-03-15 23:24:21.354 [http-nio-8080-exec-4] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:24:21.355 [http-nio-8080-exec-4] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:24:21.355 [http-nio-8080-exec-4] INFO  cn.qianshu.pingfen.controller.ActivityController - add activity get teams and users!!!
+2020-03-15 23:24:21.356 [http-nio-8080-exec-4] DEBUG cn.qianshu.pingfen.dao.STeamDao.findAll - ==>  Preparing: SELECT t.* FROM s_team t order by t.id 
+2020-03-15 23:24:21.356 [http-nio-8080-exec-4] DEBUG cn.qianshu.pingfen.dao.STeamDao.findAll - ==> Parameters: 
+2020-03-15 23:24:21.358 [http-nio-8080-exec-4] DEBUG cn.qianshu.pingfen.dao.STeamDao.findAll - <==      Total: 2
+2020-03-15 23:24:21.359 [http-nio-8080-exec-4] DEBUG cn.qianshu.pingfen.dao.SUserDao.findAll - ==>  Preparing: SELECT su.* FROM s_user su order by su.id 
+2020-03-15 23:24:21.360 [http-nio-8080-exec-4] DEBUG cn.qianshu.pingfen.dao.SUserDao.findAll - ==> Parameters: 
+2020-03-15 23:24:21.361 [http-nio-8080-exec-4] DEBUG cn.qianshu.pingfen.dao.SUserDao.findAll - <==      Total: 4
+2020-03-15 23:25:40.331 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/add]
+2020-03-15 23:25:40.333 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:25:40.334 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /activity/add(String)
+2020-03-15 23:25:40.339 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:25:40.340 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:25:40.341 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:25:40.342 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /activity/add(String)
+2020-03-15 23:25:40.344 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:25:40.345 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:25:40.345 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/add]
+2020-03-15 23:25:40.346 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-15 23:25:40.347 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - ==> Parameters: /activity/add(String)
+2020-03-15 23:25:40.350 [http-nio-8080-exec-7] DEBUG c.q.p.dao.SRoleDao.findSRoleListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:25:40.351 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-15 23:25:40.351 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-15 23:25:40.352 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - ==> Parameters: /activity/add(String)
+2020-03-15 23:25:40.354 [http-nio-8080-exec-7] DEBUG c.q.p.d.S.findSPermissionListBySPermissionUrl - <==      Total: 0
+2020-03-15 23:25:40.355 [http-nio-8080-exec-7] INFO  c.q.p.c.VFilterInvocationSecurityMetadataSource - VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-15 23:25:40.403 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.ActivityController - add activity info:Act_add [name=hhhhh, holdaddress=hhhhh, avg=true, koufen=true, active=1, holdtime=2020-03-14T16:00:00.000Z, users=[1, 2, 3], teams=[1, 3], items=[Item [name=hhhh, scale1=10], Item [name=www, scale1=10]]]
+2020-03-15 23:25:40.404 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SActivityDao.addActivity - ==>  Preparing: insert into s_activity (name,holdaddress,avg,koufen,holdtime,active)values(?,?,?,?,?,1) 
+2020-03-15 23:25:40.407 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SActivityDao.addActivity - ==> Parameters: hhhhh(String), hhhhh(String), true(Boolean), true(Boolean), 2020-03-14 00:00:00.0(Timestamp)
+2020-03-15 23:25:40.523 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SActivityDao.addActivity - <==    Updates: 1
+2020-03-15 23:25:40.525 [http-nio-8080-exec-7] DEBUG c.q.pingfen.dao.SActivityDao.findActivityByName - ==>  Preparing: SELECT a.* FROM s_activity a WHERE a.name = ? 
+2020-03-15 23:25:40.526 [http-nio-8080-exec-7] DEBUG c.q.pingfen.dao.SActivityDao.findActivityByName - ==> Parameters: hhhhh(String)
+2020-03-15 23:25:40.528 [http-nio-8080-exec-7] DEBUG c.q.pingfen.dao.SActivityDao.findActivityByName - <==      Total: 1
+2020-03-15 23:25:40.528 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.ActivityController - get activity info:Activity [id=2, name=hhhhh, holdaddress=hhhhh, avg=true, koufen=true, active=1, holdtime=Fri Mar 13 08:00:00 CST 2020]
+2020-03-15 23:25:40.557 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.STeamDao.findByID - ==>  Preparing: SELECT * FROM s_team t WHERE t.id IN ( ? , ? ) 
+2020-03-15 23:25:40.558 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.STeamDao.findByID - ==> Parameters: 1(Integer), 3(Integer)
+2020-03-15 23:25:40.560 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.STeamDao.findByID - <==      Total: 2
+2020-03-15 23:25:40.560 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.ActivityController - team:1,name:急诊科
+2020-03-15 23:25:40.561 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.STeamDao.addActivityTeam - ==>  Preparing: insert into s_activity_team (activity_id,team_id,team_name)values(?,?,?) 
+2020-03-15 23:25:40.562 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.STeamDao.addActivityTeam - ==> Parameters: 2(Integer), 1(Integer), 急诊科(String)
+2020-03-15 23:25:40.590 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.STeamDao.addActivityTeam - <==    Updates: 1
+2020-03-15 23:25:40.591 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.ActivityController - team:3,name:行政村
+2020-03-15 23:25:40.592 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.STeamDao.addActivityTeam - ==>  Preparing: insert into s_activity_team (activity_id,team_id,team_name)values(?,?,?) 
+2020-03-15 23:25:40.592 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.STeamDao.addActivityTeam - ==> Parameters: 2(Integer), 3(Integer), 行政村(String)
+2020-03-15 23:25:40.612 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.STeamDao.addActivityTeam - <==    Updates: 1
+2020-03-15 23:25:40.613 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SUserDao.findByID - ==>  Preparing: SELECT * FROM s_user u WHERE u.id IN ( ? , ? , ? ) 
+2020-03-15 23:25:40.614 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SUserDao.findByID - ==> Parameters: 1(Integer), 2(Integer), 3(Integer)
+2020-03-15 23:25:40.736 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SUserDao.findByID - <==      Total: 3
+2020-03-15 23:25:40.737 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.ActivityController - user:1,name:admin
+2020-03-15 23:25:40.739 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SUserDao.addActivityUser - ==>  Preparing: insert into s_activity_user (activity_id,user_id,user_name)values(?,?,?) 
+2020-03-15 23:25:40.740 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SUserDao.addActivityUser - ==> Parameters: 2(Integer), 1(Integer), admin(String)
+2020-03-15 23:25:40.813 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.ActivityController - user:2,name:veiking
+2020-03-15 23:25:40.815 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SUserDao.addActivityUser - ==>  Preparing: insert into s_activity_user (activity_id,user_id,user_name)values(?,?,?) 
+2020-03-15 23:25:40.816 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SUserDao.addActivityUser - ==> Parameters: 2(Integer), 2(Integer), veiking(String)
+2020-03-15 23:25:40.868 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.ActivityController - user:3,name:xiaoming
+2020-03-15 23:25:40.869 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SUserDao.addActivityUser - ==>  Preparing: insert into s_activity_user (activity_id,user_id,user_name)values(?,?,?) 
+2020-03-15 23:25:40.872 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SUserDao.addActivityUser - ==> Parameters: 2(Integer), 3(Integer), xiaoming(String)
+2020-03-15 23:25:40.912 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.ActivityController - add activity item:hhhh,scale:10
+2020-03-15 23:25:40.914 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SItemDao.addItem - ==>  Preparing: insert into s_item (activity_id,name,scale1)values(?,?,?) 
+2020-03-15 23:25:40.915 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SItemDao.addItem - ==> Parameters: 2(Integer), hhhh(String), 10(Integer)
+2020-03-15 23:25:41.057 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SItemDao.addItem - <==    Updates: 1
+2020-03-15 23:25:41.058 [http-nio-8080-exec-7] INFO  cn.qianshu.pingfen.controller.ActivityController - add activity item:www,scale:10
+2020-03-15 23:25:41.059 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SItemDao.addItem - ==>  Preparing: insert into s_item (activity_id,name,scale1)values(?,?,?) 
+2020-03-15 23:25:41.061 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SItemDao.addItem - ==> Parameters: 2(Integer), www(String), 10(Integer)
+2020-03-15 23:25:41.090 [http-nio-8080-exec-7] DEBUG cn.qianshu.pingfen.dao.SItemDao.addItem - <==    Updates: 1
+2020-03-15 23:28:34.074 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2020-03-15 23:28:34.077 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-15 23:28:34.079 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-03-15 23:28:34.091 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

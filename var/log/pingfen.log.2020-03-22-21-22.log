@@ -1,0 +1,19 @@
+2020-03-22 21:22:51.321 [main] INFO  cn.qianshu.pingfen.PingfenApplication - Starting PingfenApplication on yu-PC with PID 13292 (C:\Users\Administrator\Desktop\pingfen\target\classes started by Administrator in C:\Users\Administrator\Desktop\pingfen)
+2020-03-22 21:22:51.325 [main] INFO  cn.qianshu.pingfen.PingfenApplication - No active profile set, falling back to default profiles: default
+2020-03-22 21:22:52.630 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-22 21:22:52.640 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:22:52.642 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-22 21:22:52.642 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-22 21:22:52.728 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-22 21:22:52.729 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1347 ms
+2020-03-22 21:22:53.009 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-22 21:22:53.016 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-22 21:22:53.244 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2020-03-22 21:22:53.272 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27a97e08, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f98635e, org.springframework.security.web.header.HeaderWriterFilter@338cc75f, org.springframework.security.web.authentication.logout.LogoutFilter@4016ccc1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a82ebf8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b0615ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2015b2cd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77e7246b, org.springframework.security.web.session.SessionManagementFilter@7c9bdee9, org.springframework.security.web.access.ExceptionTranslationFilter@624a24f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37ed010a]
+2020-03-22 21:22:53.392 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-22 21:22:53.572 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-22 21:22:53.717 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-22 21:22:53.742 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-22 21:22:53.745 [main] INFO  cn.qianshu.pingfen.PingfenApplication - Started PingfenApplication in 2.962 seconds (JVM running for 3.618)
+2020-03-22 22:03:18.992 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2020-03-22 22:03:18.996 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,4 @@
+2020-03-18 00:36:45.296 | RMI TCP Connection(2)-127.0.0.1 | INFO  | o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:SpringApplicationAdminMXBeanRegistrar.java(159) | Application shutdown requested.
+2020-03-18 00:36:45.325 | RMI TCP Connection(2)-127.0.0.1 | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(208) | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-18 00:36:45.327 | RMI TCP Connection(2)-127.0.0.1 | INFO  | c.z.h.HikariDataSource:HikariDataSource.java(350) | HikariPool-1 - Shutdown initiated...
+2020-03-18 00:36:45.333 | RMI TCP Connection(2)-127.0.0.1 | INFO  | c.z.h.HikariDataSource:HikariDataSource.java(352) | HikariPool-1 - Shutdown completed.

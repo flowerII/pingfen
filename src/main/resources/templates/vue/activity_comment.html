@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <!-- import CSS -->
+  <link rel="stylesheet" href="/vue/index.css"/>
+  <link rel="stylesheet" href="/vue/custom.css"/>
+</head>
+<body>
+  <div id="app">
+  <el-container>
+	<el-header style="height: 72px; font-size: 24px">
+		<span>连州市人民医院活动评分系统</span>
+		<span style="float:right">当前用户:{{ user_name }}</span>
+    </el-header>
+    <el-main>
+    	<h3 style="text-align:center">{{activity_name}}</h3>
+    	<p>当前队伍：{{team_name}}</p>
+		<el-table :data="items">
+	    <el-table-column prop="id" label="评分序号" width="150"></el-table-column>
+		<el-table-column prop="name" label="评分规则" width="200"></el-table-column>
+		<el-table-column prop="scale1" label="分值" width="200"></el-table-column>
+		<el-table-column label="评分" width="100">
+           <template slot-scope="scope">
+	    	 	<el-select v-model="models[scope.$index+1]" placeholder="请选择" :change="select_item(scope.$index+1)">
+				    <el-option
+				      v-for="item in scope.row.scale1"
+				      :key="item"
+				      :label="item"
+				      :value="item">
+				    </el-option>
+				  </el-select>
+	      </template>
+		</el-table-column>
+	  </el-table>
+	  <el-button type="primary" v-on:click="onSubmit">提交</el-button>
+    </el-main>
+  </el-container>
+  </div>
+  <div>
+  	<input id="user_name" type="hidden" th:value="${user.name}"></input>
+  	<input id="user_id" type="hidden" th:value="${user.id}"></input>
+  	<input id="activity_name" type="hidden" th:value="${activity.name}"></input>
+  	<input id="activity_id" type="hidden" th:value="${activity.id}"></input>
+  	<input id="team_name" type="hidden" th:value="${team.name}"></input>
+  	<input id="team_id" type="hidden" th:value="${team.id}"></input>
+  	<input id="i_length" type="hidden" th:value="${i_length}"></input>
+  </div>
+</body>
+  <!-- import Vue before Element -->
+  <script src="/vue/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="/vue/index.js"></script>
+  <script src="/vue/vue-router.js"></script>
+  <script src="/vue/axios.min.js"></script>
+  <script src="/vue/activity_comment.js"></script>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <!-- import CSS -->
+  <link rel="stylesheet" href="/vue/index.css"/>
+  <link rel="stylesheet" href="/vue/custom.css"/>
+</head>
+<body>
+  <div id="app">
+  <el-container>
+	<el-header style="height: 72px; font-size: 24px">
+		<span>连州市人民医院活动评分系统</span>
+		<span style="float:right">{{ username }}||<span style="float:right"><a v-bind:href="logout">退出</a></span></span>
+    </el-header>
+  <el-container>
+    <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
+    <el-menu :default-openeds="['1', '2', '3', '4']">
+      <el-submenu index="1">
+        <template slot="title"><i class="el-icon-message"></i>活动评分</template>
+        <el-menu-item-group v-for="a in activities" v-bind:key="a.id">
+          <template slot="title"><el-link v-bind:id="a.id" v-bind:href="'/activity/find_by_activityid?id='+a.id+'&amp;username='+username" target="_blank">{{a.name}}</el-link></template>
+        </el-menu-item-group>
+        <el-menu-item-group>
+          <template slot="title"><router-link to="/bar">XX活动</router-link></template>
+        </el-menu-item-group>
+        
+      </el-submenu>
+      <el-submenu index="2">
+        <template slot="title"><i class="el-icon-menu"></i>活动统计</template>
+        <el-menu-item-group>
+          <template slot="title"><el-link v-bind:href="'/comment/koufen_page'" target="_blank">活动扣分</el-link></template>
+        </el-menu-item-group>
+        <el-menu-item-group>
+          <template slot="title"><el-link v-bind:href="'/comment/paiming'" target="_blank">活动排名</el-link></template>
+        </el-menu-item-group>
+      </el-submenu>
+      <el-submenu index="3">
+        <template slot="title"><i class="el-icon-menu"></i>活动设置</template>
+        <el-menu-item-group>
+          <template slot="title"><router-link to="/activity">活动查询</router-link></template>
+        </el-menu-item-group>
+        <el-menu-item-group>
+          <template slot="title"><router-link to="/foo">添加活动</router-link></template>
+        </el-menu-item-group>
+      </el-submenu>
+      <el-submenu index="4">
+        <template slot="title"><i class="el-icon-setting"></i>系统设置</template>
+        <el-menu-item-group>
+          <template slot="title"><router-link to="/user">用户管理</router-link></template>
+        </el-menu-item-group>
+        <el-menu-item-group>
+          <template slot="title"><router-link to="/team">队伍管理</router-link></template>
+        </el-menu-item-group>
+      </el-submenu>
+    </el-menu>
+	</el-aside>
+    
+    <el-main>
+	  <router-view></router-view>
+    </el-main>
+  </el-container>
+	<el-footer style="text-align: center; font-size: 12px">
+      <span>qianshu tec @千树科技有限公司</span>
+    </el-footer>
+</el-container>
+  </div>
+  <div>
+  	<input id="username" type="hidden" th:value="${username}"></input>
+  </div>
+</body>
+  <!-- import Vue before Element -->
+  <script src="/vue/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="/vue/index.js"></script>
+  <script src="/vue/vue-router.js"></script>
+  <script src="/vue/axios.min.js"></script>
+  <script src="/vue/router1.js"></script>
+</html>

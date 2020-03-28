@@ -1,0 +1,148 @@
+2020-03-28 15:09:25.016 [main] INFO  cn.qianshu.pingfen.PingfenApplication - Starting PingfenApplication on yu-PC with PID 3300 (C:\Users\Administrator\Desktop\pingfen\target\classes started by Administrator in C:\Users\Administrator\Desktop\pingfen)
+2020-03-28 15:09:25.011 [main] INFO  cn.qianshu.pingfen.PingfenApplication - Starting PingfenApplication on yu-PC with PID 10572 (C:\Users\Administrator\Desktop\pingfen\target\classes started by Administrator in C:\Users\Administrator\Desktop\pingfen)
+2020-03-28 15:10:15.042 [main] INFO  cn.qianshu.pingfen.PingfenApplication - No active profile set, falling back to default profiles: default
+2020-03-28 15:10:15.047 [main] INFO  cn.qianshu.pingfen.PingfenApplication - No active profile set, falling back to default profiles: default
+2020-03-28 15:09:25.003 [main] INFO  cn.qianshu.pingfen.PingfenApplication - Starting PingfenApplication on yu-PC with PID 8460 (C:\Users\Administrator\Desktop\pingfen\target\classes started by Administrator in C:\Users\Administrator\Desktop\pingfen)
+2020-03-28 15:10:18.105 [main] INFO  cn.qianshu.pingfen.PingfenApplication - No active profile set, falling back to default profiles: default
+2020-03-28 15:10:13.346 [main] INFO  cn.qianshu.pingfen.PingfenApplication - Starting PingfenApplication on yu-PC with PID 14636 (C:\Users\Administrator\Desktop\pingfen\target\classes started by Administrator in C:\Users\Administrator\Desktop\pingfen)
+2020-03-28 15:10:19.156 [main] INFO  cn.qianshu.pingfen.PingfenApplication - No active profile set, falling back to default profiles: default
+2020-03-28 15:15:08.058 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-28 15:15:08.059 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-28 15:15:08.064 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-28 15:15:08.063 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-28 15:15:13.433 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:15:13.441 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:15:13.464 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:15:13.580 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:15:13.728 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-28 15:15:13.731 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-28 15:15:13.737 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-28 15:15:13.739 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-28 15:15:13.748 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-28 15:15:13.749 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-28 15:15:13.750 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-28 15:15:13.752 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-28 15:16:07.904 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-28 15:16:07.907 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 345075 ms
+2020-03-28 15:16:07.960 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-28 15:16:07.963 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-28 15:16:07.963 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-28 15:16:07.978 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 345145 ms
+2020-03-28 15:16:07.969 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 345136 ms
+2020-03-28 15:16:07.971 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 345133 ms
+2020-03-28 15:17:34.926 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-28 15:17:34.935 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-28 15:17:35.117 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-28 15:17:35.145 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-28 15:17:35.259 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-28 15:17:35.666 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-28 15:17:35.748 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-28 15:17:36.205 [main] WARN  c.q.pingfen.config.VFilterSecurityInterceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-28 15:18:25.238 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2020-03-28 15:18:27.722 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2020-03-28 15:18:29.623 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a02e34b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fc0bbc6, org.springframework.security.web.header.HeaderWriterFilter@628b819d, org.springframework.security.web.authentication.logout.LogoutFilter@6435fa1c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@377874b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fd09e43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72bd2871, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eabff6b, org.springframework.security.web.session.SessionManagementFilter@2cca611f, org.springframework.security.web.access.ExceptionTranslationFilter@1dcedc93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3281dfc2]
+2020-03-28 15:18:29.606 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b2dd3df, org.springframework.security.web.context.SecurityContextPersistenceFilter@64b0d1fa, org.springframework.security.web.header.HeaderWriterFilter@2b53840a, org.springframework.security.web.authentication.logout.LogoutFilter@5f0a2638, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6909f6be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12d2ddde, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52d3fafd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4db77402, org.springframework.security.web.session.SessionManagementFilter@3e546734, org.springframework.security.web.access.ExceptionTranslationFilter@69cd7630, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@310b2b6f]
+2020-03-28 15:18:37.743 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2020-03-28 15:18:38.944 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c1050f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@709f0202, org.springframework.security.web.header.HeaderWriterFilter@1e3ff233, org.springframework.security.web.authentication.logout.LogoutFilter@1903b5d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@51e754e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14168e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ec99035, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67bb4dcd, org.springframework.security.web.session.SessionManagementFilter@70029d2d, org.springframework.security.web.access.ExceptionTranslationFilter@6ac4c3f7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10850d17]
+2020-03-28 15:19:13.124 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2020-03-28 15:19:14.836 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79e7188e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1946384, org.springframework.security.web.header.HeaderWriterFilter@10244722, org.springframework.security.web.authentication.logout.LogoutFilter@7ca16adc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ecc02bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7412a438, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8aeab9e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@773014d3, org.springframework.security.web.session.SessionManagementFilter@721d8ab5, org.springframework.security.web.access.ExceptionTranslationFilter@56b8aaf1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@684e8c9d]
+2020-03-28 15:22:16.543 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 15:22:20.816 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-28 15:22:59.068 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 15:23:04.434 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-28 15:23:10.047 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:23:17.867 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 15:23:49.891 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:23:50.094 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-28 15:23:55.763 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:23:55.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:23:56.231 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-28 15:24:03.193 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-28 15:24:04.297 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-28 15:24:07.111 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 15:24:08.199 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-28 15:24:10.163 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:11.531 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-28 15:24:20.879 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:20.881 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-28 15:24:21.306 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:22.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:22.994 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:23.341 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-28 15:24:24.639 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-28 15:24:25.368 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-28 15:24:26.105 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:26.108 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-28 15:24:26.322 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:26.324 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:26.450 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-28 15:24:26.470 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-28 15:24:26.510 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-28 15:24:46.124 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:51.278 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:51.495 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-28 15:24:53.474 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:53.476 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-03-28 15:24:53.852 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-28 15:24:54.924 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-28 15:24:55.306 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

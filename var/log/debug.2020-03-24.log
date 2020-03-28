@@ -1,0 +1,582 @@
+2020-03-24 23:18:58.553 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(55) | Starting PingfenApplication on yu-PC with PID 4228 (C:\Users\Administrator\Desktop\pingfen\target\classes started by Administrator in C:\Users\Administrator\Desktop\pingfen)
+2020-03-24 23:18:58.569 | main | INFO  | o.s.b.SpringApplication:SpringApplication.java(651) | No active profile set, falling back to default profiles: default
+2020-03-24 23:19:02.243 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(92) | Tomcat initialized with port(s): 8080 (http)
+2020-03-24 23:19:02.255 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-24 23:19:02.257 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting service [Tomcat]
+2020-03-24 23:19:02.257 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-03-24 23:19:02.368 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring embedded WebApplicationContext
+2020-03-24 23:19:02.369 | main | INFO  | o.s.b.w.s.c.ServletWebServerApplicationContext:ServletWebServerApplicationContext.java(284) | Root WebApplicationContext: initialization completed in 3574 ms
+2020-03-24 23:19:02.827 | main | WARN  | o.s.s.a.i.AbstractSecurityInterceptor:AbstractSecurityInterceptor.java(159) | Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-24 23:19:02.843 | main | WARN  | o.s.s.a.i.AbstractSecurityInterceptor:AbstractSecurityInterceptor.java(159) | Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-03-24 23:19:03.275 | main | INFO  | o.s.s.w.DefaultSecurityFilterChain:DefaultSecurityFilterChain.java(43) | Creating filter chain: Ant [pattern='/css/**'], []
+2020-03-24 23:19:03.354 | main | INFO  | o.s.s.w.DefaultSecurityFilterChain:DefaultSecurityFilterChain.java(43) | Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@756b58a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@36ddaebf, org.springframework.security.web.header.HeaderWriterFilter@4c48fe92, org.springframework.security.web.authentication.logout.LogoutFilter@53a5e217, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2e3f79a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9d7ccfe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15f8701f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2cc04358, org.springframework.security.web.session.SessionManagementFilter@38320e34, org.springframework.security.web.access.ExceptionTranslationFilter@55e3d6c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ff15f8c]
+2020-03-24 23:19:03.552 | main | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(171) | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-24 23:19:03.859 | main | INFO  | o.s.b.a.w.s.WelcomePageHandlerMapping:WelcomePageHandlerMapping.java(58) | Adding welcome page template: index
+2020-03-24 23:19:04.169 | main | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Starting ProtocolHandler ["http-nio-8080"]
+2020-03-24 23:19:04.196 | main | INFO  | o.s.b.w.e.t.TomcatWebServer:TomcatWebServer.java(204) | Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-24 23:19:04.196 | main | INFO  | o.s.b.StartupInfoLogger:StartupInfoLogger.java(61) | Started PingfenApplication in 7.42 seconds (JVM running for 8.704)
+2020-03-24 23:19:11.922 | http-nio-8080-exec-1 | INFO  | o.a.j.l.DirectJDKLog:DirectJDKLog.java(173) | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-24 23:19:11.923 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(525) | Initializing Servlet 'dispatcherServlet'
+2020-03-24 23:19:11.947 | http-nio-8080-exec-1 | INFO  | o.s.w.s.FrameworkServlet:FrameworkServlet.java(547) | Completed initialization in 23 ms
+2020-03-24 23:19:12.081 | http-nio-8080-exec-2 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/login]
+2020-03-24 23:19:12.083 | http-nio-8080-exec-2 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/login]
+2020-03-24 23:19:12.476 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-24 23:19:12.484 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/login.css]
+2020-03-24 23:19:12.485 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-24 23:19:12.486 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-24 23:19:12.487 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-24 23:19:12.488 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/login.js]
+2020-03-24 23:19:12.812 | http-nio-8080-exec-6 | INFO  | c.z.h.HikariDataSource:HikariDataSource.java(110) | HikariPool-1 - Starting...
+2020-03-24 23:19:13.313 | http-nio-8080-exec-6 | INFO  | c.z.h.HikariDataSource:HikariDataSource.java(123) | HikariPool-1 - Start completed.
+2020-03-24 23:19:13.434 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.434 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.502 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.522 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/login.css(String)
+2020-03-24 23:19:13.523 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:13.522 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/login.js(String)
+2020-03-24 23:19:13.565 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.565 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:13.612 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.613 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:13.646 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.647 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:13.753 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.753 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.754 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.755 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.757 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.758 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.778 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.778 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.779 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.780 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:13.778 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.782 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.783 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:13.778 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.784 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.779 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.784 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.778 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.787 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:13.789 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.790 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.790 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.790 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-24 23:19:13.790 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:13.783 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.790 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.791 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.792 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-24 23:19:13.792 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.793 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:13.791 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:13.785 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.815 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-24 23:19:13.816 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.786 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/login.js(String)
+2020-03-24 23:19:13.816 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:13.818 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.818 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.811 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.811 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.819 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.821 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:13.820 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.822 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.822 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.823 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.819 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.824 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:13.824 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-24 23:19:13.823 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.825 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.825 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.825 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/login.js]
+2020-03-24 23:19:13.826 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:13.826 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.826 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.825 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.827 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/login.css(String)
+2020-03-24 23:19:13.827 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/login.js(String)
+2020-03-24 23:19:13.830 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.831 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.831 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/login.css]
+2020-03-24 23:19:13.832 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:13.837 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.837 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/login.css(String)
+2020-03-24 23:19:13.832 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.838 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.840 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.841 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.841 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:13.840 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.842 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.843 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.844 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/login.js(String)
+2020-03-24 23:19:13.847 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.848 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.849 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.850 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:13.850 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.852 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.852 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.853 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.853 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.857 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:13.858 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:13.859 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/login.css(String)
+2020-03-24 23:19:13.861 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.862 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:13.866 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:13.868 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:21.727 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VAuthenticationProvider:VAuthenticationProvider.java(39) | VAuthenticationProvider authenticate login user [username=10021, password=123456]
+2020-03-24 23:19:21.728 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT su.* FROM s_user su WHERE su.account = ? 
+2020-03-24 23:19:21.729 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: 10021(String)
+2020-03-24 23:19:21.823 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:21.825 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_user_role sur ON sr.id = sur.fk_role_id LEFT JOIN s_user su ON sur.fk_user_id = su.id WHERE su.id = ? 
+2020-03-24 23:19:21.826 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: 1(Integer)
+2020-03-24 23:19:21.925 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:21.925 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp LEFT JOIN s_role_permission srp ON sp.id = srp.fk_permission_id LEFT JOIN s_role sr ON srp.fk_role_id = sr.id LEFT JOIN s_user_role sur ON sr.id = sur.fk_role_id LEFT JOIN s_user su ON sur.fk_user_id = su.id WHERE su.id = ? 
+2020-03-24 23:19:21.941 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: 1(Integer)
+2020-03-24 23:19:21.956 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 3
+2020-03-24 23:19:22.012 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VAuthenticationProvider:VAuthenticationProvider.java(41) | VAuthenticationProvider authenticate vUserDetails [vUserDetails={"gson":{"calls":{"threadLocalHashCode":1323096108},"typeTokenCache":{},"constructorConstructor":{"instanceCreators":{},"accessor":{}},"jsonAdapterFactory":{"constructorConstructor":{"instanceCreators":{},"accessor":{}}},"factories":[null,null,{"version":-1.0,"modifiers":136,"serializeInnerClasses":true,"requireExpose":false,"serializationStrategies":[],"deserializationStrategies":[]},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"constructorConstructor":{"instanceCreators":{},"accessor":{}}},{"constructorConstructor":{"instanceCreators":{},"accessor":{}},"complexMapKeySerialization":false},{"constructorConstructor":{"instanceCreators":{},"accessor":{}}},null,{"constructorConstructor":{"instanceCreators":{},"accessor":{}},"fieldNamingPolicy":"IDENTITY","excluder":{"version":-1.0,"modifiers":136,"serializeInnerClasses":true,"requireExpose":false,"serializationStrategies":[],"deserializationStrategies":[]},"jsonAdapterFactory":{"constructorConstructor":{"instanceCreators":{},"accessor":{}}},"accessor":{}}],"excluder":{"version":-1.0,"modifiers":136,"serializeInnerClasses":true,"requireExpose":false,"serializationStrategies":[],"deserializationStrategies":[]},"fieldNamingStrategy":"IDENTITY","instanceCreators":{},"serializeNulls":false,"complexMapKeySerialization":false,"generateNonExecutableJson":false,"htmlSafe":true,"prettyPrinting":false,"lenient":false,"serializeSpecialFloatingPointValues":false,"dateStyle":2,"timeStyle":2,"longSerializationPolicy":"DEFAULT","builderFactories":[],"builderHierarchyFactories":[]},"logger":{"name":"cn.qianshu.pingfen.entity.VUserDetails"},"sRoleList":[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"}],"sPermissionList":[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"},{"id":2,"permission":"P_ADMIN","url":"/admin","describe":"admin页面资源"},{"id":3,"permission":"P_HELLO","url":"/hello","describe":"hello页面资源"}],"id":1,"name":"admin","password":"$2a$10$D6WR4dcThfRCYGM7AXNHqup.V7URH6QISi4YFxYr1iAJeZf07ryQ2","account":"10021"}]
+2020-03-24 23:19:22.153 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VAuthenticationProvider:VAuthenticationProvider.java(45) | 密码匹配结果：true
+2020-03-24 23:19:22.278 | http-nio-8080-exec-7 | INFO  | c.q.p.e.VUserDetails:VUserDetails.java(59) | VUserDetails getAuthorities [authoritiesStr=R_ADMIN,P_INDEX,P_ADMIN,P_HELLO 
+2020-03-24 23:19:22.288 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/]
+2020-03-24 23:19:22.289 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:22.291 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /(String)
+2020-03-24 23:19:22.293 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:22.296 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":3,"role":"R_USER","describe":"普通用户，评分"}]]
+2020-03-24 23:19:22.297 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:22.297 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /(String)
+2020-03-24 23:19:22.299 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:22.300 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":4,"permission":"P_INDEX","url":"/","describe":"/index"}]]
+2020-03-24 23:19:22.301 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(58) | VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_USER","P_INDEX"]]
+2020-03-24 23:19:22.301 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/]
+2020-03-24 23:19:22.302 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:22.302 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /(String)
+2020-03-24 23:19:22.383 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:22.387 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":3,"role":"R_USER","describe":"普通用户，评分"}]]
+2020-03-24 23:19:22.388 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:22.389 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /(String)
+2020-03-24 23:19:22.394 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:22.395 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":4,"permission":"P_INDEX","url":"/","describe":"/index"}]]
+2020-03-24 23:19:22.396 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(58) | VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_USER","P_INDEX"]]
+2020-03-24 23:19:22.454 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/index]
+2020-03-24 23:19:22.455 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:22.456 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /index(String)
+2020-03-24 23:19:22.459 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 2
+2020-03-24 23:19:22.460 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"},{"id":2,"role":"R_HELLO","describe":"说hello相关的权限"}]]
+2020-03-24 23:19:22.460 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:22.461 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /index(String)
+2020-03-24 23:19:22.463 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:22.463 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"}]]
+2020-03-24 23:19:22.464 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(58) | VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_ADMIN","R_HELLO","P_INDEX"]]
+2020-03-24 23:19:22.464 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/index]
+2020-03-24 23:19:22.465 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:22.465 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /index(String)
+2020-03-24 23:19:22.467 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 2
+2020-03-24 23:19:22.468 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"},{"id":2,"role":"R_HELLO","describe":"说hello相关的权限"}]]
+2020-03-24 23:19:22.469 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:22.469 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /index(String)
+2020-03-24 23:19:22.471 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:22.471 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"}]]
+2020-03-24 23:19:22.471 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(58) | VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_ADMIN","R_HELLO","P_INDEX"]]
+2020-03-24 23:19:22.533 | http-nio-8080-exec-5 | INFO  | c.q.p.c.IndexController:IndexController.java(35) | index page
+2020-03-24 23:19:23.094 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/]
+2020-03-24 23:19:23.094 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.110 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /(String)
+2020-03-24 23:19:23.110 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:23.110 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":3,"role":"R_USER","describe":"普通用户，评分"}]]
+2020-03-24 23:19:23.110 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.110 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /(String)
+2020-03-24 23:19:23.110 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:23.110 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":4,"permission":"P_INDEX","url":"/","describe":"/index"}]]
+2020-03-24 23:19:23.126 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(58) | VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_USER","P_INDEX"]]
+2020-03-24 23:19:23.126 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/]
+2020-03-24 23:19:23.126 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.127 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /(String)
+2020-03-24 23:19:23.130 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:23.131 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":3,"role":"R_USER","describe":"普通用户，评分"}]]
+2020-03-24 23:19:23.132 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.132 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /(String)
+2020-03-24 23:19:23.133 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:23.134 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":4,"permission":"P_INDEX","url":"/","describe":"/index"}]]
+2020-03-24 23:19:23.134 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(58) | VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_USER","P_INDEX"]]
+2020-03-24 23:19:23.139 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/index]
+2020-03-24 23:19:23.140 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.140 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /index(String)
+2020-03-24 23:19:23.143 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 2
+2020-03-24 23:19:23.144 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"},{"id":2,"role":"R_HELLO","describe":"说hello相关的权限"}]]
+2020-03-24 23:19:23.145 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.145 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /index(String)
+2020-03-24 23:19:23.147 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:23.148 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"}]]
+2020-03-24 23:19:23.148 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(58) | VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_ADMIN","R_HELLO","P_INDEX"]]
+2020-03-24 23:19:23.148 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/index]
+2020-03-24 23:19:23.149 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.149 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /index(String)
+2020-03-24 23:19:23.152 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 2
+2020-03-24 23:19:23.153 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[{"id":1,"role":"R_ADMIN","describe":"大总管，所有权限"},{"id":2,"role":"R_HELLO","describe":"说hello相关的权限"}]]
+2020-03-24 23:19:23.153 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.154 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /index(String)
+2020-03-24 23:19:23.155 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:23.156 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[{"id":1,"permission":"P_INDEX","url":"/index","describe":"index页面资源"}]]
+2020-03-24 23:19:23.157 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(58) | VFilterInvocationSecurityMetadataSource getAttributes [permissionArray=["R_ADMIN","R_HELLO","P_INDEX"]]
+2020-03-24 23:19:23.157 | http-nio-8080-exec-10 | INFO  | c.q.p.c.IndexController:IndexController.java(35) | index page
+2020-03-24 23:19:23.194 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-24 23:19:23.195 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.197 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:23.203 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.204 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.205 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.205 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:23.209 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.210 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.211 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-24 23:19:23.212 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.213 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:23.215 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/custom.css]
+2020-03-24 23:19:23.218 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.218 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.219 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.220 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:23.226 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.227 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.235 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.235 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/custom.css(String)
+2020-03-24 23:19:23.239 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.242 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.243 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.243 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/custom.css(String)
+2020-03-24 23:19:23.247 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.248 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.248 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/custom.css]
+2020-03-24 23:19:23.249 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.250 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/custom.css(String)
+2020-03-24 23:19:23.253 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.253 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.254 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.254 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-24 23:19:23.254 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/custom.css(String)
+2020-03-24 23:19:23.254 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.255 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:23.256 | http-nio-8080-exec-2 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-24 23:19:23.257 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.257 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:23.260 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.260 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.260 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.260 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.261 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.261 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:23.263 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.263 | http-nio-8080-exec-2 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.264 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.264 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:23.266 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.267 | http-nio-8080-exec-2 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.267 | http-nio-8080-exec-2 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-24 23:19:23.268 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.268 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:23.269 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue-router.js]
+2020-03-24 23:19:23.273 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.272 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-24 23:19:23.275 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.275 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.276 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.276 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:23.276 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-24 23:19:23.276 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.277 | http-nio-8080-exec-2 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.277 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.277 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.278 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:23.278 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:23.279 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.280 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.280 | http-nio-8080-exec-2 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.281 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.281 | http-nio-8080-exec-2 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.281 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:23.284 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.285 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.285 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.286 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:23.274 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue-router.js(String)
+2020-03-24 23:19:23.287 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.287 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.288 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.288 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.288 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-24 23:19:23.289 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.289 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:23.295 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.296 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.296 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.296 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.297 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.297 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.297 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:23.298 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue-router.js(String)
+2020-03-24 23:19:23.300 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.300 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.301 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.301 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.301 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue-router.js]
+2020-03-24 23:19:23.302 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.303 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue-router.js(String)
+2020-03-24 23:19:23.306 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.308 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.310 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.311 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue-router.js(String)
+2020-03-24 23:19:23.314 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.316 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.319 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/router1.js]
+2020-03-24 23:19:23.320 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.320 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/router1.js(String)
+2020-03-24 23:19:23.324 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.324 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.325 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.325 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/router1.js(String)
+2020-03-24 23:19:23.330 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.331 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.332 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/router1.js]
+2020-03-24 23:19:23.333 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.334 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/router1.js(String)
+2020-03-24 23:19:23.339 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.340 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.340 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.341 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/router1.js(String)
+2020-03-24 23:19:23.349 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.351 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.538 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/get_by_useruanme]
+2020-03-24 23:19:23.539 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.540 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /activity/get_by_useruanme(String)
+2020-03-24 23:19:23.542 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.543 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.543 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.544 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /activity/get_by_useruanme(String)
+2020-03-24 23:19:23.546 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.546 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.547 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity/get_by_useruanme]
+2020-03-24 23:19:23.547 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.548 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /activity/get_by_useruanme(String)
+2020-03-24 23:19:23.550 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.551 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.552 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.552 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /activity/get_by_useruanme(String)
+2020-03-24 23:19:23.554 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.554 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.557 | http-nio-8080-exec-5 | INFO  | c.q.p.c.ActivityController:ActivityController.java(166) | activity controller getactivity get_by_useruanme:admin
+2020-03-24 23:19:23.560 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT a.* FROM s_activity a LEFT JOIN s_activity_user au ON a.id = au.activity_id left join s_user u on au.user_id=u.id where u.name=? and a.active=1 ORDER BY a.id 
+2020-03-24 23:19:23.561 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: admin(String)
+2020-03-24 23:19:23.564 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/fonts/element-icons.woff]
+2020-03-24 23:19:23.564 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.565 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/fonts/element-icons.woff(String)
+2020-03-24 23:19:23.570 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.571 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.571 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.571 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/fonts/element-icons.woff(String)
+2020-03-24 23:19:23.572 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.573 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:23.573 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/fonts/element-icons.woff]
+2020-03-24 23:19:23.574 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:23.574 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/fonts/element-icons.woff(String)
+2020-03-24 23:19:23.576 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.577 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:23.576 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:23.578 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:23.578 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/fonts/element-icons.woff(String)
+2020-03-24 23:19:23.580 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:23.580 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:24.963 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/comment/paiming]
+2020-03-24 23:19:24.964 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:24.965 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /comment/paiming(String)
+2020-03-24 23:19:24.967 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:24.968 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:24.968 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:24.969 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /comment/paiming(String)
+2020-03-24 23:19:24.970 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:24.971 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:24.971 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/comment/paiming]
+2020-03-24 23:19:24.971 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:24.972 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /comment/paiming(String)
+2020-03-24 23:19:24.974 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:24.975 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:24.975 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:24.975 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /comment/paiming(String)
+2020-03-24 23:19:24.977 | http-nio-8080-exec-4 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:24.977 | http-nio-8080-exec-4 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:24.979 | http-nio-8080-exec-4 | INFO  | c.q.p.c.CommentController:CommentController.java(135) | 进入排名列表页面！！！
+2020-03-24 23:19:25.004 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-24 23:19:25.006 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/custom.css]
+2020-03-24 23:19:25.006 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.007 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.007 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:25.008 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/custom.css(String)
+2020-03-24 23:19:25.012 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.013 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.013 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.013 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.013 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.013 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.014 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/custom.css(String)
+2020-03-24 23:19:25.014 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:25.015 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.015 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.015 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.016 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/custom.css]
+2020-03-24 23:19:25.016 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.015 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.016 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.css]
+2020-03-24 23:19:25.017 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/custom.css(String)
+2020-03-24 23:19:25.017 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.019 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.019 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:25.019 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.019 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.020 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/custom.css(String)
+2020-03-24 23:19:25.021 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.021 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.022 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.022 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.022 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.022 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.css(String)
+2020-03-24 23:19:25.023 | http-nio-8080-exec-3 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.024 | http-nio-8080-exec-3 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.026 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-24 23:19:25.031 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.031 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:25.030 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-24 23:19:25.033 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.034 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:25.035 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-24 23:19:25.036 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.036 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.037 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.037 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:25.036 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.037 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue-router.js]
+2020-03-24 23:19:25.038 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.039 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.039 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/index.js]
+2020-03-24 23:19:25.039 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.040 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:25.040 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:25.042 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.043 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue-router.js(String)
+2020-03-24 23:19:25.047 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.048 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.048 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.048 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.049 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.049 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue-router.js(String)
+2020-03-24 23:19:25.049 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.052 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/index.js(String)
+2020-03-24 23:19:25.054 | http-nio-8080-exec-6 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.054 | http-nio-8080-exec-6 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.054 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.055 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.055 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.056 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:25.057 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.058 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.058 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.059 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:25.060 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.061 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.061 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue-router.js]
+2020-03-24 23:19:25.061 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.062 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue-router.js(String)
+2020-03-24 23:19:25.063 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.064 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.064 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.071 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.071 | http-nio-8080-exec-1 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/paiming_list.js]
+2020-03-24 23:19:25.072 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/vue.js]
+2020-03-24 23:19:25.072 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.072 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.072 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/paiming_list.js(String)
+2020-03-24 23:19:25.073 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:25.064 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/axios.min.js]
+2020-03-24 23:19:25.074 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.074 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:25.075 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.076 | http-nio-8080-exec-1 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.077 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.068 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.077 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.078 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.079 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue-router.js(String)
+2020-03-24 23:19:25.077 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/paiming_list.js(String)
+2020-03-24 23:19:25.082 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.084 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.085 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.086 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/axios.min.js(String)
+2020-03-24 23:19:25.078 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.090 | http-nio-8080-exec-7 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.087 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.090 | http-nio-8080-exec-7 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.090 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.091 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/vue.js(String)
+2020-03-24 23:19:25.087 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.093 | http-nio-8080-exec-1 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.094 | http-nio-8080-exec-1 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/vue/paiming_list.js]
+2020-03-24 23:19:25.094 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.095 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/paiming_list.js(String)
+2020-03-24 23:19:25.088 | http-nio-8080-exec-9 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.096 | http-nio-8080-exec-9 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.103 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.103 | http-nio-8080-exec-1 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.103 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.104 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /vue/paiming_list.js(String)
+2020-03-24 23:19:25.104 | http-nio-8080-exec-5 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.105 | http-nio-8080-exec-5 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.105 | http-nio-8080-exec-1 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.106 | http-nio-8080-exec-1 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.280 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/comment/findAllActivity]
+2020-03-24 23:19:25.282 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.282 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /comment/findAllActivity(String)
+2020-03-24 23:19:25.285 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.287 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.288 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.289 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /comment/findAllActivity(String)
+2020-03-24 23:19:25.290 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.291 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.291 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/comment/findAllActivity]
+2020-03-24 23:19:25.291 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:25.292 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /comment/findAllActivity(String)
+2020-03-24 23:19:25.294 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.295 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:25.296 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:25.296 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /comment/findAllActivity(String)
+2020-03-24 23:19:25.299 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:25.299 | http-nio-8080-exec-8 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:25.300 | http-nio-8080-exec-8 | INFO  | c.q.p.c.CommentController:CommentController.java(143) | 查找所有活动
+2020-03-24 23:19:25.301 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT a.* FROM s_activity a order by a.id desc 
+2020-03-24 23:19:25.302 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: 
+2020-03-24 23:19:25.304 | http-nio-8080-exec-8 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 1
+2020-03-24 23:19:32.432 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity_/rank/2]
+2020-03-24 23:19:32.435 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:32.436 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /activity_/rank/2(String)
+2020-03-24 23:19:32.440 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:32.440 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:32.441 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:32.442 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /activity_/rank/2(String)
+2020-03-24 23:19:32.445 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:32.446 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:19:32.447 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(33) | VFilterInvocationSecurityMetadataSource getAttributes [requestUrl=/activity_/rank/2]
+2020-03-24 23:19:32.447 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT sr.* FROM s_role sr LEFT JOIN s_role_permission srp ON sr.id = srp.fk_role_id LEFT JOIN s_permission sp ON srp.fk_permission_id = sp.id WHERE sp.url = ? 
+2020-03-24 23:19:32.450 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /activity_/rank/2(String)
+2020-03-24 23:19:32.454 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:32.454 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(42) | VFilterInvocationSecurityMetadataSource getAttributes [sRoleList=[]]
+2020-03-24 23:19:32.455 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==>  Preparing: SELECT * FROM s_permission sp WHERE sp.url = ? 
+2020-03-24 23:19:32.455 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | ==> Parameters: /activity_/rank/2(String)
+2020-03-24 23:19:32.456 | http-nio-8080-exec-10 | DEBUG | o.a.i.l.j.BaseJdbcLogger:BaseJdbcLogger.java(143) | <==      Total: 0
+2020-03-24 23:19:32.457 | http-nio-8080-exec-10 | INFO  | c.q.p.c.VFilterInvocationSecurityMetadataSource:VFilterInvocationSecurityMetadataSource.java(48) | VFilterInvocationSecurityMetadataSource getAttributes [sPermissionList=[]]
+2020-03-24 23:21:08.664 | RMI TCP Connection(2)-127.0.0.1 | INFO  | o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:SpringApplicationAdminMXBeanRegistrar.java(159) | Application shutdown requested.
+2020-03-24 23:21:08.664 | RMI TCP Connection(2)-127.0.0.1 | INFO  | o.s.s.c.ExecutorConfigurationSupport:ExecutorConfigurationSupport.java(208) | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-24 23:21:08.664 | RMI TCP Connection(2)-127.0.0.1 | INFO  | c.z.h.HikariDataSource:HikariDataSource.java(350) | HikariPool-1 - Shutdown initiated...
+2020-03-24 23:21:08.680 | RMI TCP Connection(2)-127.0.0.1 | INFO  | c.z.h.HikariDataSource:HikariDataSource.java(352) | HikariPool-1 - Shutdown completed.

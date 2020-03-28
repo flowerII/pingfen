@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <!-- import CSS -->
+  <link rel="stylesheet" href="/vue/index.css"/>
+  <link rel="stylesheet" href="/vue/custom.css"/>
+</head>
+<body>
+  <div id="app">
+  <el-container>
+	<el-header style="height: 72px; font-size: 24px">
+		<span>连州市人民医院活动评分系统</span>
+    </el-header>
+    <el-main>
+    	<h3 style="text-align:center" th:text="${activity.name}">XX活动</h3>
+		<el-table :data="items">
+		<el-table-column prop="team_name" label="队伍" width="220"></el-table-column>
+		<el-table-column prop="max_" label="最高分" width="220"></el-table-column>
+		<el-table-column prop="min_" label="最低分" width="220"></el-table-column>
+		<el-table-column prop="avg_" label="平均分" width="100"></el-table-column>
+		<el-table-column prop="last_" label="最终得分" width="100"></el-table-column>
+		<el-table-column label="排名">
+            <template slot-scope="scope">
+              {{scope.$index+1}} 
+            </template>
+          </el-table-column>
+	  </el-table>
+    </el-main>
+  </el-container>
+  </div>
+  <div>
+  	<input id="activity_id" type="hidden" th:value="${activity.id}"></input>
+  	<input id="activity_name" type="hidden" th:value="${activity.name}"></input>
+  	<input id="activity_avg" type="hidden" th:value="${activity.avg}"></input>
+  	<input id="activity_koufen" type="hidden" th:value="${activity.koufen}"></input>
+  </div>
+</body>
+  <!-- import Vue before Element -->
+  <script src="/vue/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="/vue/index.js"></script>
+  <script src="/vue/vue-router.js"></script>
+  <script src="/vue/axios.min.js"></script>
+  <script src="/vue/rank.js"></script>
+</html>
